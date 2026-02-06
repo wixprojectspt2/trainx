@@ -1,4 +1,4 @@
-FROM node
+FROM node:25.6.0-bookworm
 
 RUN /bin/cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime && echo 'Asia/Shanghai' >/etc/timezone
 
